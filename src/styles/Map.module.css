@@ -1,0 +1,51 @@
+.container {
+
+    position: relative;
+    width: 390px;
+    height: 961px;
+    margin: 0 auto;
+
+    background: #FFFFFF;
+}
+
+.map {
+    position: relative;
+    width: 390px;
+    height: 350px;
+    left: 0px;
+    top: 80px;
+}
+.titleContainer {
+    position: relative;
+    width: 340.44px;
+    height: 115.82px;
+    left: 7px;
+    top: 18px;
+}
+.homeName {
+    position: relative;
+    width: 180.44px;
+    height: 115.82px;
+    left: 7px;
+    top: 50.94px;
+
+    font-family: 'Mr Dafoe', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 98px;
+
+    text-align: center;
+    letter-spacing: 0.075em;
+
+    color: #000000;
+
+}
+
+
+.bottomSheet{
+    position: relative;
+    width: 390px;
+    height: 500px;
+    top: 100px;
+}

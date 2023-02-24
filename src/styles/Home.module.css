@@ -61,21 +61,21 @@
     position: absolute;
     width: 34px;
     height: 41px;
-    left: 130px;
+    left: 100px;
     top:30px;
 }
 .countryimage{
     position: absolute;
     width: 41px;
     height: 41px;
-    left: 180px;
+    left: 150px;
     top:30px;
 }
 .from {
     position: absolute;
     width: 89px;
     height: 38px;
-    left: 21px;
+    left: 5px;
     top: 6px;
 
     font-family: 'Inter';
@@ -91,9 +91,9 @@
 
 .selectItem {
     position: absolute;
-    width: 89px;
+    width: 115px;
     height: 38px;
-    left: 230px;
+    left: 200px;
     top: 30px;
 
     font-family: 'Inter';
