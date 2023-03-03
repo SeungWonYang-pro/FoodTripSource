@@ -37,7 +37,7 @@ function Home() {
     const [city, setCity] = useState("Korea");
     const [loading, setLoading] = useState("True");
     const [image, setImage] = useState(japanHome);
-    const [cimage,setCimage] = useState(japan);
+    const [cimage, setCimage] = useState(japan);
     const onSelect = (event) => {
         setCountry(event.target.value);
     };
@@ -87,30 +87,30 @@ function Home() {
         }
 
     }, [country])
-    
-    const geo = navigator.geolocation.getCurrentPosition(onGeoOk,onGeoError);
-    function onGeoOk(position){
+
+    const geo = navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
+    function onGeoOk(position) {
         const lat = position.coords.latitude;
         const lon = position.coords.longitude;
-        
+
         //kakao REST API에 get 요청을 보낸다.
         //파라미터 x,y에 lon,lat을 넣어주고 API_KEY를 Authorization헤더에 넣어준다.
         axios.get(`https://dapi.kakao.com/v2/local/geo/coord2address.json?x=${lon}&y=${lat}&input_coord=WGS84`
-        ,{headers:{Authorization:`KakaoAK ${process.env.REACT_APP_REST_API}`}}
+            , { headers: { Authorization: `KakaoAK ${process.env.REACT_APP_REST_API}` } }
         )
-        .then(res=>{
-            console.log(res.data.documents[0].address.region_3depth_name)
-            setCity(res.data.documents[0].address.region_3depth_name);
-        }
-        ).catch(e=>console.log(e))
+            .then(res => {
+                console.log(res.data.documents[0].address.region_3depth_name)
+                setCity(res.data.documents[0].address.region_3depth_name);
+            }
+            ).catch(e => console.log(e))
     }
-    function onGeoError(){
+    function onGeoError() {
         alert("위치권한을 확인해주세요");
     }
 
 
 
-    
+
 
     return (
         <div className={styles.container}>
@@ -135,14 +135,14 @@ function Home() {
                     <option value="태국">태국</option>
                     <option value="멕시코">멕시코</option>
                 </select>
-                <img className={styles.countryimage} src={cimage}/>
+                <img className={styles.countryimage} src={cimage} />
             </div>
             <div className={styles.bottomImage}
                 style={{ backgroundImage: `url(${image})` }} >
                 <h2 className={styles.bottomDetail}>내위치에서</h2>
                 <h2 className={styles.bottomDetail}>{country}음식여행</h2>
-                <button className={styles.button}><Link to={`/map/${country}`}>바로가기</Link></button>
-            </div>
+                <button className={styles.button}><Link style={{textDecoration: 'none', color: 'white'}}to={`/map/${country}`}>바로가기</Link></button>
+        </div>
         </div >
     );
 }

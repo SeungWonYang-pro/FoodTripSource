@@ -14,9 +14,14 @@
     "react-hook-form": "^7.43.0",
     "react-hook-geolocation": "^1.1.0",
     "react-kakao-maps-sdk": "^1.1.5",
+    "react-native": "^0.71.3",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-reanimated": "^2.14.4",
+    "react-native-web": "^0.18.12",
     "react-router": "^6.8.0",
-    "react-router-dom": "^5.3.0",
+    "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -45,5 +50,11 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://SeungWonYang-pro.github.io/misiktrip"
+  "homepage": "https://SeungWonYang-pro.github.io/misiktrip",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6"
+  }
 }
