@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/FoodTripSource/static/css/main.08826846.css",
+    "main.js": "/FoodTripSource/static/js/main.8d6d95df.js",
+    "static/media/japanHome.jpg": "/FoodTripSource/static/media/japanHome.501a27cbb4a62a2f90c0.jpg",
+    "static/media/americaHome.jpg": "/FoodTripSource/static/media/americaHome.a13d83999a9ee8c90b08.jpg",
+    "static/media/indiaHome.jpg": "/FoodTripSource/static/media/indiaHome.f6deebf26be967f8db45.jpg",
+    "static/media/hongkongHome.png": "/FoodTripSource/static/media/hongkongHome.a8de773e9d372fcb4447.png",
+    "static/media/chinaHome.png": "/FoodTripSource/static/media/chinaHome.c206e2ddf0afadf68aaf.png",
+    "static/media/franceHome.png": "/FoodTripSource/static/media/franceHome.23962c5f07d0b2bd114e.png",
+    "static/media/italyHome.png": "/FoodTripSource/static/media/italyHome.9afa8f4dca923c1c0a34.png",
+    "static/media/vietnamHome.png": "/FoodTripSource/static/media/vietnamHome.c795b0a4165339f2e164.png",
+    "static/media/mexicoHome.png": "/FoodTripSource/static/media/mexicoHome.b36150fb1e26830f6018.png",
+    "static/media/thaiHome.png": "/FoodTripSource/static/media/thaiHome.98cc80e1913f23244006.png",
+    "static/media/foodTrip.png": "/FoodTripSource/static/media/foodTrip.91b8fd28ddf103251048.png",
+    "index.html": "/FoodTripSource/index.html",
+    "main.08826846.css.map": "/FoodTripSource/static/css/main.08826846.css.map",
+    "main.8d6d95df.js.map": "/FoodTripSource/static/js/main.8d6d95df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08826846.css",
+    "static/js/main.8d6d95df.js"
+  ]
+}
