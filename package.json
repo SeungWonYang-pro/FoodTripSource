@@ -50,7 +50,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://SeungWonYang-pro.github.io/FoodTrip",
+  "homepage": "https://SeungWonYang-pro.github.io/FoodTripSource",
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.0",
